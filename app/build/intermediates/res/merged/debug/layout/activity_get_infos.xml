@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.matthieu.ow.getInfosPlayer">
+
+    <LinearLayout
+        android:id="@+id/RLAyout"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.03"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <EditText
+            android:id="@+id/Btag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="left"
+            android:inputType="text"
+            android:text="BattleTag"
+            tools:layout_editor="36dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="buttonOnClick"
+            android:text="Afficher"
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="511dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TextView
+            android:id="@+id/Uname"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.03"
+            android:gravity="center_vertical|center_horizontal"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RLAyout"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1" />
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="110dp"
+            android:layout_height="127dp"
+            android:layout_gravity="center_horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/babeaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.03"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Competitif :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/games"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/wins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/looses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/ties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/winrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/eazdaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.03"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Partie Rapide :" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/ngames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/nwins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/nloses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/nwinrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+        <TextView
+            android:id="@+id/nlevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

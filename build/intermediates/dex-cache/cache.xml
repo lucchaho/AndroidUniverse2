@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\lucch\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Users\lucch\AndroidStudioProjects\AndroidUniverse2\app\build\intermediates\pre-dexed\debug\picasso-2.5.0_d28b63754545875549dcded1017aa63d20e67446.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lucch\.android\build-cache\98acb76e908d5f0e609ff67fe7495a53cc44d828\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\lucch\AndroidStudioProjects\AndroidUniverse2\app\build\intermediates\pre-dexed\debug\classes_cab01693e5e0fb48c8835f45d72a6f35fdd717b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\lucch\.android\build-cache\0d5e362f4e2b740d693ad76bfcd1ff6f734a8599\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\lucch\AndroidStudioProjects\AndroidUniverse2\app\build\intermediates\pre-dexed\debug\classes_70a517b13472012c837e841f42ef029131d3a4a2.jar" />
+    </item>
+
+</items>
